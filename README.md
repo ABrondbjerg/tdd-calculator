@@ -1,1 +1,2 @@
-Dette er en README fil der skal laves
+Dette er en NY README fil
+-Denne her nye feratures der add'er i arrays/list

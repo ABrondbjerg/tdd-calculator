@@ -21,9 +21,22 @@ class CalculatorTest {
     @Test
     void testAdd(){
         int expected = 5;
-        int actual = instance.add(2,4);
+        int actual = instance.add(2,3);
         assertEquals(expected,actual);
     }
+    @Test
+    void testAdd1(){
+        int expected = 6;
+        int actual = instance.add("1,2,3");
+        assertEquals(expected,actual);
+    }
+    @Test
+    void testadd2(){
+        int expected = 6;
+        int actual = instance.add(new int[]{1,2,3});
+        assertEquals(expected,actual);
+    }
+
     @Test
     void testSubtract(){
         int expected = 0;
